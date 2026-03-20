@@ -7,7 +7,8 @@ class Member(User):
 
     def borrow_book(self, book):
         if self.borrowed_books >= 5:
-            print("Borrow limit reached (max 5 books).")
+            print("Borrow limit reached (max 5 books).")    # maximum of books that can be borrowed 
+
             return
 
         if book.status == "Available":

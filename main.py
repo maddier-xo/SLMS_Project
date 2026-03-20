@@ -13,7 +13,7 @@ def main():
     books = [book1, book2, book3, book4, book5, book6]
 
     # Create a member
-    member1 = Member(101, "Penny")
+    member1 = Member(101, "Hi Penny")
     member1.login()
 
     while True:
